@@ -1,0 +1,46 @@
+/*
+@-moz-document url-prefix("https://"hnarayanan.github.io/springer-books/") {
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #191919;
+  color: hsl(163, 30%, 96%);
+}
+
+a {
+  color: #81c5ff;
+  text-decoration: none;
+}
+
+body > .container {
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+.card.mb-2 {
+  background-color: rgba(255, 255, 255, 0.13);
+  border-radius: 0;
+  border: solid 1px #aaffdd;
+}
+
+.text-muted {
+  color: #bbb !important;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border: none;
+  color: #81c5ff;
+  padding: 0;
+  margin: 0;
+  display: block;
+  text-indent: -9999em;
+  height: 0;
+}
+.btn-primary:hover {
+  background: none;
+  color: #81c5ff;
+}
+/*}*/
